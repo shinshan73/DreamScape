@@ -9,7 +9,7 @@
 }
 
 #accueil div {
-    padding: 100px;
+    padding: 5%;
 }
 
 #accueil ul{
@@ -17,9 +17,25 @@
     justify-content: space-between;
 }
 
-#accueil li{
+#accueil img{
+    margin-top: -2%;
+}
+
+#accueil li {
     text-decoration: none;
     list-style: none;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    padding-top: 5px;
+    color: red;
+    border-bottom: 1px solid red;
 }
 
 #accueil button{
@@ -29,16 +45,21 @@
     border: none;
     margin-left: 45%;
     font-size: 15px;
+    margin-top: 25%;
 }
 
 #regles{
     height: 100vh;
-    background-color: lightgray;
+    background-image: url("image/Rectangle\ 9.png");
 }
 
 h1{
     text-align: center;
     padding-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 35px;
 }
 
 .reglesContenu{
@@ -48,15 +69,23 @@ h1{
 }
 
 .reglesText{
-    margin-right: 20%;
+    margin-right: 10%;
+    margin-top: 30px;
 }
 
 .reglesText p {
-    margin-top: 4%;
+    margin-top: 6%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: white;
 }
 
 #regles img {
     margin-top: 10%;
+    height: 670px;
+    width: 550px;
+    margin-top: -10%;
 }
 
 #photos {
@@ -77,4 +106,19 @@ h1{
     margin-left: 45%;
     font-size: 15px;
     margin-top: 7%;
+}
+
+#contact{
+    height: 100vh;
+    background-color: mediumaquamarine;
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.contactContenu{
+    display: flex;
+    justify-content: center;
 }
