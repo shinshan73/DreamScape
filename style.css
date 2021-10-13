@@ -8,7 +8,7 @@
     background-color: rgb(173, 157, 157);
 }
 
-#accueil section {
+#accueil div {
     padding: 100px;
 }
 
@@ -29,4 +29,52 @@
     border: none;
     margin-left: 45%;
     font-size: 15px;
+}
+
+#regles{
+    height: 100vh;
+    background-color: lightgray;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5%;
+}
+
+.reglesContenu{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.reglesText{
+    margin-right: 20%;
+}
+
+.reglesText p {
+    margin-top: 4%;
+}
+
+#regles img {
+    margin-top: 10%;
+}
+
+#photos {
+    height: 100vh;
+    background-color: lightsteelblue;
+}
+
+#photos img{
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+#photos button{
+    height: 5%;
+    width: 8%;
+    border-radius: 20%;
+    border: none;
+    margin-left: 45%;
+    font-size: 15px;
+    margin-top: 7%;
 }
