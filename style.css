@@ -20,6 +20,18 @@
     justify-content: space-around;
 }
 
+.slide-in{
+    margin-top: 20%;
+    margin-left: 35%;
+    transform: translate(-100%);
+    opacity: 0;
+}
+
+.slide-in.active{
+    transform: translate(0%);
+    opacity: 1;
+    transition: 0.9s;
+}
 
 
 #accueil li {
