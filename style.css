@@ -11,8 +11,9 @@
 }
 
 #accueil nav {
-    padding: 5%;
-    height:10px;
+    padding: 3%;
+    background-color: #58438D;
+    opacity: 0.7;
 }
 
 #accueil ul{
@@ -21,10 +22,11 @@
 }
 
 .slide-in{
-    margin-top: 20%;
-    margin-left: 35%;
     transform: translate(-100%);
     opacity: 0;
+    height: 900px;
+    margin-left: 28%;
+    margin-top: -5%;
 }
 
 .slide-in.active{
@@ -135,9 +137,10 @@ footer {
     display: flex;
     width: 60%;
     margin: auto;
-
     color: #9EC1D4;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
 
 strong {
