@@ -4,8 +4,10 @@
 }
 
 #accueil {
-    height: 100vh;
+    height: 120vh;
     background-image: url('image/bannière\ violette.png');
+    background-size: cover;
+   
 }
 
 #accueil nav {
@@ -20,12 +22,14 @@
 #accueil img{
     margin-top: -2%;
     margin-right: 15%;
+    width: 250px;
+    height: 63px;
 }
 
 #accueil li {
     text-decoration: none;
     list-style: none;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     margin-right: 190px;
@@ -43,15 +47,15 @@ a{
     border: 1px solid #707070;
     margin-left: 45%;
     font-size: 20px;
-    margin-top: 25%;
+    margin-top: 35%;
     background-color: white;
     color:#7D68AC;
 }
 
 #regles{
     height: 100vh;
-    background-image:;
-    background-color:black;
+    background-image: url('image/violet.png');
+    background-size: cover;
 }
 
 h1{
