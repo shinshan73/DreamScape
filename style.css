@@ -5,7 +5,7 @@
 
 #accueil {
     height: 120vh;
-    background-image: url('image/bannière\ violette.png');
+    background-image: url('image/chambre.png');
     background-size: cover;
 
 }
@@ -17,41 +17,23 @@
 
 #accueil ul{
     display: flex;
+    justify-content: space-around;
 }
 
-#accueil img{
-    margin-top: -2%;
-    margin-right: 15%;
-    width: 250px;
-    height: 63px;
-}
+
 
 #accueil li {
     text-decoration: none;
     list-style: none;
-    font-size: 25px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin-right: 190px;
 }
-
 a{
     text-decoration: none;
     color: white;
 }
 
-
-#accueil button{
-    height: 8%;
-    width: 10%;
-    border-radius: 40px;
-    border: 1px solid #707070;
-    margin-left: 45%;
-    font-size: 20px;
-    margin-top: 35%;
-    background-color: white;
-    color:#7D68AC;
-}
 
 #regles{
     height: 100vh;
