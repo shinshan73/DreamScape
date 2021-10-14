@@ -24,9 +24,9 @@
 .slide-in{
     transform: translate(-100%);
     opacity: 0;
-    height: 900px;
-    margin-left: 28%;
-    margin-top: -5%;
+    height: 1200px;
+    margin-left: 20%;
+    margin-top: -20%;    
 }
 
 .slide-in.active{
@@ -124,6 +124,9 @@ h1{
 
 #photos {
     height: 100vh;
+}
+#photos img {
+    box-shadow: 10px 5px 5px #9EC1D4;
 }
 
 #photos img{
