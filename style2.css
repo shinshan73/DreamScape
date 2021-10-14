@@ -4,8 +4,7 @@
 }
 
 body{
-    background-image: url('image/brown-paper-texture-macro-brown-paper-vintage-texture-crumpled-paper.jpg');
-    height: 100vh;
+    background-image: url('image/brown-paper-texture-macro-brown-paper-vintage-texture-crumpled-paper.png');
 }
 
 #top .logo{
@@ -24,8 +23,8 @@ h1{
 #top .rebus{
     width: 1200px;
     height: 1200px;
-    margin-left: 10%;
-    margin-top: -25%;
+    margin-left: 17%;
+    margin-top: -20%;
 }
 
 h2{
@@ -37,6 +36,6 @@ h2{
 }
 
 #mid img{
-    margin-top: 5%;
-    margin-left: 37%;
+    margin-left: 39%;
+    height:600px;
 }

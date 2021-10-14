@@ -5,11 +5,12 @@
 
 #accueil {
     height: 100vh;
-    background-color: #F6F6F6;
+    background-image: url('image/bannière\ violette.png');
 }
 
-#accueil div {
+#accueil nav {
     padding: 5%;
+    height:10px;
 }
 
 #accueil ul{
@@ -18,26 +19,22 @@
 
 #accueil img{
     margin-top: -2%;
-    width: 250px;
-    height: 50px;
-    margin-right: 20%;
+    margin-right: 15%;
 }
 
 #accueil li {
     text-decoration: none;
     list-style: none;
-    font-size: 18px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin-right: 150px;
+    margin-right: 190px;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
-a:hover{
-    color: red;
-}
+
 
 #accueil button{
     height: 8%;
@@ -48,11 +45,13 @@ a:hover{
     font-size: 20px;
     margin-top: 25%;
     background-color: white;
+    color:#7D68AC;
 }
 
 #regles{
     height: 100vh;
-    background-image: url("image/Rectangle\ 9.png");
+    background-image:;
+    background-color:black;
 }
 
 h1{
