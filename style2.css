@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('image/brown-paper-texture-macro-brown-paper-vintage-texture-crumpled-paper.jpg');
+    height: 100vh;
+}
+
+#top .logo{
+    margin-left: 40%;
+    margin-top: 80px;
+    width: 350px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+#top .rebus{
+    width: 1200px;
+    height: 1200px;
+    margin-left: 10%;
+    margin-top: -25%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: -20%;
+}
+
+#mid img{
+    margin-top: 5%;
+    margin-left: 37%;
+}
